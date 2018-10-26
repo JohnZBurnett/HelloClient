@@ -19,5 +19,6 @@ public class WaitServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter(); 
 		out.println("<html><body><h1>WaitServlet Response</h1></body></html>");
+		out.close(); 
 	}
 }
